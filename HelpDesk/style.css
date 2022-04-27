@@ -1,0 +1,161 @@
+.caixa{
+    position: relative;
+    width: 100%;
+    background:no-repeat center;
+    background-color: darkslategray ;
+}
+
+nav{
+    display:inline-block;
+    position: relative;
+    top:-30px;
+    right: 20px;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    padding: 20px;   
+}
+
+.titulo-principal{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+main {
+    align-items: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.card-login{
+    width: 380px;
+    height: 230px;
+    margin: 30px auto;
+    border: 1px solid rgb(167, 154, 154);
+}
+
+.card-header{
+    background-color: darkslategray;
+    border-bottom: 2px solid rgb(97, 96, 96);
+    padding: 15px;
+    color:white;
+    font-weight: bold;
+	font-size: 18px;
+}
+
+form {
+	margin: 0 0;
+    padding: 3%;
+    }
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 80%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.entrar {
+    left: 10%;
+    width:20%;
+	padding: 10px 0;
+	background: rgb(16, 126, 160);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.botonsChamado{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.entrar:hover {
+	background:darkslategray;
+	transform: scale(1.2);
+}
+
+.link{
+  text-decoration: none;
+}
+
+.caixa-menu{
+    width: 50%;
+    height: 230px;
+    margin: 30px auto;
+    border: 1px solid rgb(167, 154, 154);
+    position: fixed;
+    
+    
+}
+
+.caixa-menu-abrir-chamado{
+    width: 50%;
+    height: 60%;
+    margin: 30px auto;
+    border: 1px solid rgb(167, 154, 154);
+    position: fixed;
+    
+    
+}
+
+
+.titulo-menu{
+    background-color: darkslategray;
+    text-align: center;
+    color: aliceblue;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 3px;
+    
+}
+
+.row{    
+    
+    padding: 50px;
+    
+   
+}
+.content{
+   
+    position: fixed;
+    display: inline-block;
+    right: 50% ;
+    margin-right: 10%;
+    
+}
+.content2{
+   
+    position: fixed;
+    display: inline-block;
+    left: 50%;
+    margin-left: 10%;
+}
+
+.texto-input{
+    margin-top: 20px;
+    resize: none;
+    height: 15%;
+    width: 100%;
+    
+}
+.textArea{
+    display: flex;
+    
+}
+

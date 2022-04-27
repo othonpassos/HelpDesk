@@ -1,0 +1,42 @@
+.caixa-menu{
+    width: 50%;
+    height: 230px;
+    margin: 30px auto;
+    border: 1px solid rgb(167, 154, 154);
+    position: fixed;
+    
+    
+}
+
+.titulo-menu{
+    background-color: darkslategray;
+    text-align: center;
+    color: aliceblue;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 3px;
+    
+}
+
+.row{    
+    
+    padding: 50px;
+    
+   
+}
+.content{
+   
+    position: fixed;
+    display: inline-block;
+    right: 50% ;
+    margin-right: 10%;
+    
+}
+.content2{
+   
+    position: fixed;
+    display: inline-block;
+    left: 50%;
+    margin-left: 10%;
+}
